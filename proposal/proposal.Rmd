@@ -34,36 +34,16 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 <!-- ======================================================================= -->
 [^1]: 20080384, [Github Repo](https://github.com/cogenderozden/Midterm)
 
-# Important Information About Midterm
-
-\colorbox{BurntOrange}{WRITE YOUR GITHUB REPO LINK ON LINE 35 IN THIS FILE!}
-
-**Project Proposal submisson will be done by uploading a zip file to the ekampus system along with the Github repo link. If you do not upload a zip file to the system and do not provide a Github repo link, you will be deemed not to have entered the midterm and final exams.**
-
-**You must upload your project folder (`YourStudentID.zip` file) to *ekampus.ankara.edu.tr* until 16 April 2023, 23:59.**
-
-\colorbox{WildStrawberry}{Read the README.md file in the project folder for more information.}
 
 # Introduction
-This outline has been created to assist you in writing your project assignment. You should cite all the sources you use, articles, presentations, projects, etc. Quoting and referencing gives readers the opportunity to access the resources you refer. **Even though you use your own words, if you are conveying the ideas of others in your work, you have to document the source of these ideas. Otherwise, you are committing academic plagiarism.** For example, you can refer to @aydinonat:2007 for academic writing rules. You can find lots of online resources on this topic.
-
-The sections in your project assignment must necessarily include the sections in this text (except the first section, of course). Apart from the sections used here, you can use different subsections. When writing your project, use this file as a draft and adapt its content to your purposes.
-
-In this section, mention the purpose and importance of your work in a few paragraphs.
-
 
 The COVID-19 global epidemic, which emerged in China at the beginning of 2020 and then spread to the whole world, has affected many national, regional and global movements (human, capital, goods, trade, migration, etc.)@kervankiran2020bildiugimiz .It has had a huge impact especially on the tourism industry.The tourism sector in Turkey has been significantly affected by the Covid-19 outbreak. Turkey is one of the most popular travel destinations in the world and the tourism industry is an important source of income for the country's economy. However, the tourism sector in Turkey has been severely affected by the spread of the pandemic. Tourist numbers have decreased significantly as a result of border restrictions, flight cancellations and quarantine procedures. In addition, the epidemic caused employment losses and income reductions for those working in the tourism sector. Turkey has taken the necessary steps against COVID-19, but the recovery process for the travel and tourism sector can be long and difficult.In this study, the effects of covid-19 on the tourism sector in Turkey will be examined together with the data.
 
 
 ## Literature Review
 
-In this section, discuss the articles you have read on the subject by giving references. This is a narrative citation @chang:2013. This one is a parenthetical citation [@chang:2013]. **Do not summarize each article individually under a separate title.** In the literature review section, **at least four** articles must be cited [@newbold:2003; @verzani:2014; @wickham:2014; @wooldridge:2015a].
+Turkey's tourism sector has been heavily affected during the covid-19 process. Studies on its effects and evaluations in Turkey have been started.[@kervankiran2020bildiugimiz; @aydin2020yeni; @yenicsehirliouglu2020covid; @buyuk2020covid] Especially the entry bans to the countries that started to be implemented after the pandemic have caused great damage to the tourism sector in Turkey.In addition, people's insecurity about the cleanliness of hotels is one of the leading factors that negatively affect the effects of the pandemic on the tourism sector. The negative effects of the pandemic on the economy have also led people to cancel their holiday plans.
 
-
-
-**References section is created automatically by Rmarkdown. There is no need to change the references section in the draft file.**
-
-**_You shouldn't delete the last 3 lines. Those lines are required for References section._**
 
 \newpage
 # References {#references}
