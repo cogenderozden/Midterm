@@ -45,7 +45,6 @@ The COVID-19 global epidemic, which emerged in China at the beginning of 2020 an
 Turkey's tourism sector has been heavily affected during the covid-19 process. Studies on its effects and evaluations in Turkey have been started.[@kervankiran2020bildiugimiz; @aydin2020yeni; @yenicsehirliouglu2020covid; @buyuk2020covid] Especially the entry bans to the countries that started to be implemented after the pandemic have caused great damage to the tourism sector in Turkey.In addition, people's insecurity about the cleanliness of hotels is one of the leading factors that negatively affect the effects of the pandemic on the tourism sector. The negative effects of the pandemic on the economy have also led people to cancel their holiday plans.
 
 ### Data
-
 ```{r}
 library(tidyverse)
 
@@ -68,12 +67,16 @@ veri %>%
   pivot_wider(names_from = YILLAR, values_from = TURIZM_GELIRI, names_prefix = "GELIR_")
 
 ```
+
+
 #### Data Analysis
 In this table, we see the revenues obtained in the years before and after the covid-19 pandemic process.As seen in the table, there is a decrease in tourism revenues with the pandemic process.When the table is examined, even a person who has no knowledge about the pandemic process can make a prediction about the pandemic process by looking at the year and months with the lowest income.
 
+##### Conclusion
+As a result, the COVID-19 pandemic has significantly affected tourism in Turkey. The number of foreign tourists visiting the country has decreased sharply, seriously hurting the finances of the tourism industry. While domestic tourism helped to offset the decrease in foreign tourists to some extent, it was not enough to compensate for the overall decline in income. The epidemic has also caused changes in tourist behavior as visitors prefer outdoor and nature-based activities and are more concerned about health and safety measures.
 
-
-
+###### Summary
+Since the covid-19 pandemic process has negatively affected people economically and spiritually, this situation has kept people away from making holiday plans and the tourism season in Turkey has experienced a painful process.The bans imposed on entry to countries further increased this negative effect.
 
 
 
