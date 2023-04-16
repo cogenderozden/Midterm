@@ -44,6 +44,39 @@ The COVID-19 global epidemic, which emerged in China at the beginning of 2020 an
 
 Turkey's tourism sector has been heavily affected during the covid-19 process. Studies on its effects and evaluations in Turkey have been started.[@kervankiran2020bildiugimiz; @aydin2020yeni; @yenicsehirliouglu2020covid; @buyuk2020covid] Especially the entry bans to the countries that started to be implemented after the pandemic have caused great damage to the tourism sector in Turkey.In addition, people's insecurity about the cleanliness of hotels is one of the leading factors that negatively affect the effects of the pandemic on the tourism sector. The negative effects of the pandemic on the economy have also led people to cancel their holiday plans.
 
+### Data
+
+```{r}
+library(tidyverse)
+
+veri <- data.frame(
+  AYLAR = c("OCAK", "ŞUBAT", "MART", "NİSAN", "MAYIS", "HAZİRAN", 
+            "TEMMUZ", "AĞUSTOS", "EYLÜL", "EKİM", "KASIM", "ARALIK", "12 Aylık Toplam"),
+  `2019` = c(1755674, 1505062, 1865797, 2287216, 3024127, 3823979, 
+             4951125, 5921319, 4970573, 4590419, 2393087, 1842095, 38930474),
+  `2020` = c(2085858, 1682608, 895926, 175638, 196363, 275473, 
+             711042, 2054698, 2356564, 2301315, 1178102, 903685, 14817273),
+  `2021` = c(854475, 722424, 1059071, 1198135, 1035086, 1870861, 
+             3844761, 5641288, 4640682, 4678158, 2511421, 2117226, 30173587),
+  `2022` = c(2259265, 1870892, 2430853, 2525296, 3611055, 4378817, 
+             5439592, 6710319, 5684611, 5783369, 3220811, 2370026, 46284907)
+)
+
+veri %>%
+  pivot_longer(cols = -AYLAR, names_to = "YILLAR", values_to = "TURIZM_GELIRI") %>%
+  mutate(YILLAR = as.numeric(YILLAR)) %>%
+  pivot_wider(names_from = YILLAR, values_from = TURIZM_GELIRI, names_prefix = "GELIR_")
+
+```
+#### Data Analysis
+In this table, we see the revenues obtained in the years before and after the covid-19 pandemic process.As seen in the table, there is a decrease in tourism revenues with the pandemic process.When the table is examined, even a person who has no knowledge about the pandemic process can make a prediction about the pandemic process by looking at the year and months with the lowest income.
+
+
+
+
+
+
+
 
 \newpage
 # References {#references}
